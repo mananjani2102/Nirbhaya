@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+/* ========================================
+   SafeHer India — Earthy Olive Design System
+   ======================================== */
+
+:root {
+  /* Core Colors */
+  --primary: #8d9d4f;
+  --primary-foreground: #ffffff;
+  --secondary: #6b7a3a;
+  --secondary-foreground: #ffffff;
+  --background: #faf8f2;
+  --foreground: #2c2a1e;
+
+  /* Card */
+  --card: #e7dbbf;
+  --card-foreground: #2c2a1e;
+
+  /* Muted */
+  --muted: #f0ead6;
+  --muted-foreground: #6b6550;
+
+  /* Accent */
+  --accent: #b5a97c;
+  --accent-foreground: #2c2a1e;
+
+  /* Popover */
+  --popover: #ffffff;
+  --popover-foreground: #2c2a1e;
+
+  /* Border & Input & Ring */
+  --border: #d9cfb0;
+  --input: #e7dbbf;
+  --ring: #8d9d4f;
+
+  /* Destructive */
+  --destructive: #c93c37;
+  --destructive-foreground: #ffffff;
+
+  /* Sidebar */
+  --sidebar: #f5f0e0;
+  --sidebar-foreground: #2c2a1e;
+  --sidebar-primary: #8d9d4f;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e7dbbf;
+  --sidebar-accent-foreground: #2c2a1e;
+  --sidebar-border: #d9cfb0;
+  --sidebar-ring: #8d9d4f;
+
+  /* Charts */
+  --chart-1: #8d9d4f;
+  --chart-2: #6b7a3a;
+  --chart-3: #b5a97c;
+  --chart-4: #c9b96e;
+  --chart-5: #4b7fbe;
+
+  /* Radius */
+  --radius: 0.5rem;
+
+  /* Shadow */
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 3px;
+  --shadow-blur: 8px;
+  --shadow-spread: 0px;
+  --shadow-color: rgba(141, 157, 79, 0.15);
+
+  /* Semantic Aliases (used in JSX hardcoded values) */
+  --color-primary: #8d9d4f;
+  --color-primary-dark: #6b7a3a;
+  --color-primary-light: #a8b86e;
+  --color-secondary: #6b7a3a;
+  --color-background: #faf8f2;
+  --color-surface: #faf8f2;
+  --color-surface-dim: #e7dbbf;
+  --color-on-surface: #2c2a1e;
+  --color-on-surface-variant: #6b6550;
+  --color-outline: #8a7e65;
+  --color-outline-variant: #d9cfb0;
+  --color-surface-container-high: #f0ead6;
+  --color-surface-container-highest: #e7dbbf;
+  --color-surface-container-low: #f5f0e0;
+  --color-surface-container-lowest: #ffffff;
+
+  --font-headline: 'Merriweather', serif;
+  --font-body: 'Source Serif 4', serif;
+  --font-label: 'Manrope', sans-serif;
+  --font-serif: 'Merriweather', serif;
+}
+
+.dark {
+  --primary: #8a9f7b;
+  --primary-foreground: #1a1a10;
+  --secondary: #6e8a5c;
+  --secondary-foreground: #f5f0e0;
+  --background: #1a1a10;
+  --foreground: #e7dbbf;
+
+  --card: #413c33;
+  --card-foreground: #e7dbbf;
+
+  --muted: #2c2a1e;
+  --muted-foreground: #a09880;
+
+  --accent: #5c553e;
+  --accent-foreground: #e7dbbf;
+
+  --popover: #2c2a1e;
+  --popover-foreground: #e7dbbf;
+
+  --border: #5c553e;
+  --input: #413c33;
+  --ring: #8a9f7b;
+
+  --destructive: #dc4a44;
+  --destructive-foreground: #ffffff;
+
+  --sidebar: #22201a;
+  --sidebar-foreground: #e7dbbf;
+  --sidebar-primary: #8a9f7b;
+  --sidebar-primary-foreground: #1a1a10;
+  --sidebar-accent: #413c33;
+  --sidebar-accent-foreground: #e7dbbf;
+  --sidebar-border: #5c553e;
+  --sidebar-ring: #8a9f7b;
+
+  --chart-1: #8a9f7b;
+  --chart-2: #6e8a5c;
+  --chart-3: #b5a97c;
+  --chart-4: #c9b96e;
+  --chart-5: #6b9fd4;
+
+  --color-primary: #8a9f7b;
+  --color-primary-dark: #6e8a5c;
+  --color-primary-light: #a8b86e;
+  --color-secondary: #6e8a5c;
+  --color-background: #1a1a10;
+  --color-surface: #1a1a10;
+  --color-surface-dim: #413c33;
+  --color-on-surface: #e7dbbf;
+  --color-on-surface-variant: #a09880;
+  --color-outline: #8a7e65;
+  --color-outline-variant: #5c553e;
+  --color-surface-container-high: #2c2a1e;
+  --color-surface-container-highest: #413c33;
+  --color-surface-container-low: #22201a;
+  --color-surface-container-lowest: #1a1a10;
+}
+
+@theme {
+  /* SafeHer India Earthy Olive Design System */
+  --color-primary: #8d9d4f;
+  --color-primary-container: #a8b86e;
+  --color-secondary: #6b7a3a;
+  --color-background: #faf8f2;
+  --color-surface: #faf8f2;
+  --color-surface-dim: #e7dbbf;
+  --color-on-surface: #2c2a1e;
+  --color-on-surface-variant: #6b6550;
+  --color-outline: #8a7e65;
+  --color-outline-variant: #d9cfb0;
+  --color-surface-container-high: #f0ead6;
+  --color-surface-container-highest: #e7dbbf;
+  --color-surface-container-low: #f5f0e0;
+  --color-surface-container-lowest: #ffffff;
+
+  --font-headline: 'Merriweather', serif;
+  --font-body: 'Source Serif 4', serif;
+  --font-label: 'Manrope', sans-serif;
+  --font-serif: 'Merriweather', serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-body antialiased selection:bg-primary/20;
+  }
+}
+
+@layer components {
+
+  /* Define base custom classes */
+  .btn-3d {
+    box-shadow: 0 3px 0 #5a6c30;
+    transition: all 100ms;
+  }
+
+  .btn-3d:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #5a6c30;
+  }
+
+  .glass-card {
+    background: rgba(250, 248, 242, 0.8);
+    backdrop-filter: blur(12px);
+    @apply border border-outline-variant/15;
+  }
+
+  .bg-texture {
+    background-color: #f5f0e0;
+    background-image: radial-gradient(#8d9d4f 0.5px, transparent 0.5px), radial-gradient(#8d9d4f 0.5px, #f5f0e0 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    opacity: 0.05;
+    @apply absolute inset-0 pointer-events-none;
+  }
+
+  .shadow-signature {
+    box-shadow: 3px 3px 2px rgba(141, 157, 79, 0.15);
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+
+  .material-symbols-fill {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+
+  .gradient-hero {
+    background: linear-gradient(135deg, #faf8f2 0%, #f5f0e0 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gradient-hero::after {
+    content: '';
+    @apply absolute top-0 right-0 w-1/2 h-full pointer-events-none;
+    background: radial-gradient(circle at center right, rgba(141, 157, 79, 0.15) 0%, transparent 70%);
+  }
+
+  /* Utility aliases */
+  .btn-primary {
+    @apply bg-primary text-white font-label font-bold px-6 py-3 rounded-lg;
+    box-shadow: 0 3px 0 #5a6c30;
+    transition: all 100ms;
+  }
+
+  .btn-primary:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #5a6c30;
+  }
+
+  .btn-secondary {
+    background: rgba(141, 157, 79, 0.15);
+    color: #8d9d4f;
+    @apply font-label font-bold px-6 py-3 rounded-lg;
+    transition: all 200ms;
+  }
+
+  .btn-secondary:hover {
+    background: rgba(141, 157, 79, 0.25);
+  }
+
+  .card-premium {
+    @apply bg-white rounded-3xl p-8 shadow-sm border border-gray-100;
+  }
+
+  .form-input {
+    @apply w-full h-[46px] bg-surface-container-high border-none rounded-t-lg rounded-b-none text-on-surface px-4 font-body transition-all;
+  }
+
+  .form-input:focus {
+    @apply bg-surface-container-highest ring-0;
+    box-shadow: 0 2px 0 0 #8d9d4f;
+    outline: none;
+  }
+
+  /* Animations */
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(20px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-in {
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+  }
+
+  .slide-in-from-right {
+    animation-name: slideInFromRight;
+  }
+
+  .slide-in-from-left {
+    animation-name: slideInFromLeft;
+  }
+
+  .fade-in {
+    animation-name: fadeIn;
+  }
+
+  @keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+  .animate-accordion-down {
+    animation: accordion-down 0.2s ease-out;
+  }
+  .animate-accordion-up {
+    animation: accordion-up 0.2s ease-out;
+  }
+}
