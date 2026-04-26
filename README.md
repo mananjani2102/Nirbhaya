@@ -1235,3 +1235,4 @@ This project is licensed under the [MIT License](LICENSE). Use it, fork it, buil
 <!-- perf(app): optimize module resolution and imports -->
 <!-- docs(code): add inline comments to core logic -->
 <!-- refactor(auth): simplify token validation flow -->
+<!-- chore(deps): align dependency versions across workspaces -->
