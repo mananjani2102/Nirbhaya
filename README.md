@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <a href="https://nirbhaya.netlify.app">
+  <a href="https://niirbhaya.netlify.app">
     <img src="https://img.shields.io/badge/LIVE%20DEMO-VIEW%20PROJECT-8d9d4f?style=for-the-badge&labelColor=4a4035" />
   </a>
   &nbsp;
@@ -34,8 +34,8 @@
 
 | Service | Platform | URL |
 |:-------:|:--------:|:----|
-| Frontend | Netlify | https://nirbhaya.netlify.app |
-| Backend API | Render | https://nirbhaya-backend.onrender.com |
+| Frontend | Netlify | https://niirbhaya.netlify.app |
+| Backend API | Render | https://nirbhaya-pqv4.onrender.com |
 | Database | MongoDB Atlas | Managed Cloud Cluster |
 | Realtime | Socket.io | Embedded in Backend |
 
@@ -774,7 +774,7 @@ npm run dev    # -> http://localhost:3000
 
 ## API Reference
 
-<img src="https://img.shields.io/badge/Base%20URL-https://nirbhaya--backend.onrender.com/api-8d9d4f?style=for-the-badge&labelColor=4a4035" />
+<img src="https://img.shields.io/badge/Base%20URL-https://nirbhaya--pqv4.onrender.com/api-8d9d4f?style=for-the-badge&labelColor=4a4035" />
 
 </div>
 
@@ -1144,18 +1144,6 @@ This project is licensed under the [MIT License](LICENSE). Use it, fork it, buil
 <!-- refactor(backend): improve middleware organization -->
 <!-- style(frontend): clean up component file structure -->
 <!-- fix(api): handle null edge cases in route handlers -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
 <!-- chore(config): finalize environment and tooling setup -->
 <!-- refactor(backend): improve middleware organization -->
 <!-- style(frontend): clean up component file structure -->
