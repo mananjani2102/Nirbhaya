@@ -15,14 +15,17 @@ const generateRefreshToken = (userId) =>
 // ── Register ─────────────────────────────────────────────────────────
 const register = async (req, res) => {
   try {
-    const { name, email, phone, password, confirmPassword } = req.body;
+    let { name, email, phone, password, confirmPassword } = req.body;
 
     // Validation
     if (!name || name.trim().length < 2) {
       return res.status(400).json({ success: false, message: 'Name must be at least 2 characters' });
     }
 
-    const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (email) {
+      email = email.trim();
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email || !emailRegex.test(email)) {
       return res.status(400).json({ success: false, message: 'Please provide a valid email address' });
     }
@@ -154,11 +157,13 @@ const resendOTP = async (req, res) => {
 // ── Login ────────────────────────────────────────────────────────────
 const login = async (req, res) => {
   try {
-    const { email, password } = req.body;
+    let { email, password } = req.body;
 
     if (!email || !password) {
       return res.status(400).json({ success: false, message: 'Please provide email and password' });
     }
+
+    email = email.trim();
 
     const user = await User.findOne({ email });
     if (!user) {

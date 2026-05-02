@@ -32,15 +32,18 @@ const StandardLayout = ({ children }) => (
 
 // Protected Route Component
 const PrivateRoute = ({ children }) => {
-    const { isAuthenticated, loading } = useAuth();
+    // const { isAuthenticated, loading } = useAuth();
 
-    if (loading) return (
-        <div className="h-screen w-full flex items-center justify-center bg-background text-primary font-headline italic animate-pulse text-2xl">
-            Safeguarding...
-        </div>
-    );
+    // if (loading) return (
+    //     <div className="h-screen w-full flex items-center justify-center bg-background text-primary font-headline italic animate-pulse text-2xl">
+    //         Safeguarding...
+    //     </div>
+    // );
 
-    return isAuthenticated ? children : <Navigate to="/login" replace />;
+    // return isAuthenticated ? children : <Navigate to="/login" replace />;
+    
+    // Temporarily bypassing authentication for Figma html.to.design plugin
+    return children;
 };
 
 export default function AppRouter() {
