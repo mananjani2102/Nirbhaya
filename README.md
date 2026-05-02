@@ -38,7 +38,7 @@
 | Backend API | Render | https://nirbhaya-pqv4.onrender.com |
 | Figma Design | Figma | https://www.figma.com/design/Jys56cwKCEalT0BSoBIKm6/Untitled?node-id=0-1&t=AuLDgFRiD1bRwEJi-1 |
 | API Documentation | Postman | https://documenter.getpostman.com/view/50839334/2sBXqKnzCE |
-| Demo Video | YouTube | YOUTUBE_DEMO_LINK_HERE |
+| Demo Video | YouTube | https://youtu.be/1REXhOiRhKY |
 
 </div>
 
