@@ -29,13 +29,24 @@ export default function Login() {
     setIsLoading(true);
 
     try {
+      console.log('[Login] Attempting login to:', `${API_BASE_URL}/api/auth/login`);
+      console.log('[Login] Email:', email.trim());
+      
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 30000); // 30s timeout for Render cold start
+      
       const response = await fetch(`${API_BASE_URL}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email: email.trim(), password }),
+        signal: controller.signal,
       });
+      
+      clearTimeout(timeoutId);
+      console.log('[Login] Response status:', response.status);
 
       const data = await response.json();
+      console.log('[Login] Response data:', JSON.stringify(data));
 
       if (data.success) {
         localStorage.setItem('authToken', data.accessToken);
@@ -55,8 +66,12 @@ export default function Login() {
         }
       }
     } catch (err) {
-      console.error('Login error:', err);
-      setError('Cannot connect to server. Make sure the backend is running.');
+      console.error('[Login] Error:', err);
+      if (err.name === 'AbortError') {
+        setError('Server is waking up. Please wait 10 seconds and try again.');
+      } else {
+        setError('Cannot connect to server. Please try again in a moment.');
+      }
     } finally {
       setIsLoading(false);
     }
