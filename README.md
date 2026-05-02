@@ -30,6 +30,26 @@
 
 <div align="center">
 
+## Important Links
+
+| Resource | Platform | Link |
+|:--------:|:--------:|:-----|
+| Live Frontend | Netlify | https://niirbhaya.netlify.app |
+| Backend API | Render | https://nirbhaya-pqv4.onrender.com |
+| Figma Design | Figma | https://www.figma.com/design/Jys56cwKCEalT0BSoBIKm6/Untitled?node-id=0-1&t=AuLDgFRiD1bRwEJi-1 |
+| API Documentation | Postman | https://documenter.getpostman.com/view/50839334/2sBXqKnzCE |
+| Demo Video | YouTube | YOUTUBE_DEMO_LINK_HERE |
+
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=8d9d4f&height=4" width="100%">
+
+<br>
+
+<div align="center">
+
 ## Live Services
 
 | Service | Platform | URL |
@@ -345,6 +365,56 @@ Dark and Light Mode Tokens
 
 <div align="center">
 
+## SEO Implementation
+
+<img src="https://img.shields.io/badge/React%20Helmet-Meta%20Tags-8d9d4f?style=for-the-badge&labelColor=4a4035" />
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20Graph-Social%20Sharing-9db18c?style=for-the-badge&labelColor=4a4035" />
+&nbsp;
+<img src="https://img.shields.io/badge/Semantic%20HTML5-Structured%20Markup-dbc894?style=for-the-badge&labelColor=4a4035" />
+
+</div>
+
+<br>
+
+```
+SEO is implemented across all public and authenticated pages using React Helmet Async.
+
+  DYNAMIC META TAGS
+  Each route sets its own <title> and <meta name="description"> via React Helmet.
+  Example — Landing:   "Nirbhaya — Travel Without Fear. Safety App for Women in India."
+  Example — Map:       "Safety Map — Police Stations, Hospitals & Safe Zones Near You"
+  Example — Pricing:   "Plans & Pricing — Nirbhaya Guardian Network"
+
+  OPEN GRAPH TAGS
+  og:title, og:description, og:image, og:url set on all public pages.
+  Enables rich link previews when shared on WhatsApp, Twitter, and LinkedIn.
+
+  TWITTER CARD
+  twitter:card set to summary_large_image for expanded preview on Twitter.
+
+  SEMANTIC HTML5
+  <header>, <main>, <nav>, <section>, <article>, <footer> used throughout.
+  Headings follow correct H1 > H2 > H3 hierarchy on every page.
+  All images include descriptive alt attributes.
+
+  PERFORMANCE
+  Vite code-splitting ensures each route loads only what it needs.
+  Lazy loading applied to heavy components — MapView, FakeCallOverlay, PaymentModal.
+  Lighthouse performance score — 90+ on Landing and Dashboard pages.
+
+  CANONICAL URLS
+  <link rel="canonical"> set on all public pages to prevent duplicate indexing.
+```
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=8d9d4f&height=4" width="100%">
+
+<br>
+
+<div align="center">
+
 ## Tech Stack
 
 ### Frontend
@@ -398,6 +468,11 @@ Dark and Light Mode Tokens
 <td align="center"><img src="https://img.shields.io/badge/Payments-d98b7e?style=flat-square" /></td>
 <td align="center"><strong>Razorpay SDK</strong></td>
 <td>Handles UPI, card, net banking, and wallet payments for Premium Guardian and Annual Sanctuary subscriptions. RBI compliant payment flow.</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/SEO-a18f5c?style=flat-square" /></td>
+<td align="center"><strong>React Helmet Async</strong></td>
+<td>Injects dynamic meta tags, Open Graph tags, and canonical URLs per route for search engine indexing and social sharing previews.</td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/UX-9db18c?style=flat-square" /></td>
@@ -775,6 +850,10 @@ npm run dev    # -> http://localhost:3000
 ## API Reference
 
 <img src="https://img.shields.io/badge/Base%20URL-https://nirbhaya--pqv4.onrender.com/api-8d9d4f?style=for-the-badge&labelColor=4a4035" />
+&nbsp;
+<a href="https://documenter.getpostman.com/view/50839334/2sBXqKnzCE">
+  <img src="https://img.shields.io/badge/Postman%20Docs-Full%20API%20Reference-dbc894?style=for-the-badge&labelColor=4a4035" />
+</a>
 
 </div>
 
@@ -1056,212 +1135,3 @@ This project is licensed under the [MIT License](LICENSE). Use it, fork it, buil
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8d9d4f&height=200&section=footer&text=Nirbhaya+%E2%80%94+Without+Fear&fontSize=40&fontAlignY=70&animation=twinkling&fontColor=fdfbf6" />
 
 </div>
-
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
-<!-- refactor(backend): improve middleware organization -->
-<!-- style(frontend): clean up component file structure -->
-<!-- fix(api): handle null edge cases in route handlers -->
-<!-- perf(app): optimize module resolution and imports -->
-<!-- docs(code): add inline comments to core logic -->
-<!-- refactor(auth): simplify token validation flow -->
-<!-- chore(deps): align dependency versions across workspaces -->
-<!-- style(css): normalize spacing and typography tokens -->
-<!-- fix(ui): correct responsive layout on mobile screens -->
-<!-- perf(db): improve query efficiency in model methods -->
-<!-- refactor(routes): consolidate route handler patterns -->
-<!-- chore(config): finalize environment and tooling setup -->
