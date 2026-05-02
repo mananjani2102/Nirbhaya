@@ -26,6 +26,7 @@ export const ROUTES = {
 };
 
 export const APP_NAME = 'Nirbhaya';
+export const API_BASE_URL = import.meta.env.PROD ? 'https://nirbhaya-pqv4.onrender.com' : '';
 
 export const MOCK_USER = {
     name: 'Priya Sharma',

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import SignupStep1 from './SignupStep1';
 import SignupStep2 from './SignupStep2';
 import ProgressBar from './ProgressBar';
+import { API_BASE_URL } from '../utils/constants';
 import './Signup.css';
 
 const Signup = () => {
@@ -102,7 +103,7 @@ const Signup = () => {
           emergencyContactRelationship: formData.emergencyContactRelationship,
         };
 
-        const response = await fetch('/api/auth/register', {
+        const response = await fetch(`${API_BASE_URL}/api/auth/register`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -145,7 +146,7 @@ const Signup = () => {
         confirmPassword: formData.confirmPassword
       };
       
-      const response = await fetch('/api/auth/register', {
+      const response = await fetch(`${API_BASE_URL}/api/auth/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
