@@ -4,8 +4,10 @@ import {
     CheckCircle, Download, Trash2, Key, Monitor, MapPin, QrCode, 
     AlertTriangle, Loader2, Info, Lock
 } from 'lucide-react';
+import { useAuth } from '../hooks/useAuth';
 
 export default function SettingsPage() {
+    const { user } = useAuth();
     // Global & Persistence
     const [activeTab, setActiveTab] = useState(localStorage.getItem('settingsTab') || 'Profile');
     const [toast, setToast] = useState(null); // { message, type }
@@ -25,11 +27,23 @@ export default function SettingsPage() {
 
     // --- Tab 1: Profile State ---
     const [profileData, setProfileData] = useState({
-        name: 'Priya Sharma',
-        email: 'priya@example.com',
-        phone: '+91 9876543210',
-        pin: '1234'
+        name: user?.name || '',
+        email: user?.email || '',
+        phone: user?.phone || '',
+        pin: ''
     });
+
+    useEffect(() => {
+        if (user) {
+            setProfileData(prev => ({
+                ...prev,
+                name: user.name || prev.name,
+                email: user.email || prev.email,
+                phone: user.phone || prev.phone
+            }));
+        }
+    }, [user]);
+
     const [profileErrors, setProfileErrors] = useState({});
     const [savedProfile, setSavedProfile] = useState(false);
 

@@ -10,7 +10,17 @@ export const useAuth = () => {
         // Check localStorage for token
         const token = localStorage.getItem('authToken');
         if (token) {
-            setUser(MOCK_USER);
+            try {
+                const storedUser = localStorage.getItem('user');
+                if (storedUser) {
+                    setUser(JSON.parse(storedUser));
+                } else {
+                    setUser(MOCK_USER);
+                }
+            } catch (e) {
+                console.error("Error parsing user from localStorage:", e);
+                setUser(MOCK_USER);
+            }
         }
         setLoading(false);
     }, []);
@@ -24,6 +34,8 @@ export const useAuth = () => {
 
     const logout = () => {
         localStorage.removeItem('authToken');
+        localStorage.removeItem('user');
+        localStorage.removeItem('refreshToken');
         setUser(null);
     };
 
