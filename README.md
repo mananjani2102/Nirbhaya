@@ -1268,3 +1268,4 @@ This project is licensed under the [MIT License](LICENSE). Use it, fork it, buil
 <!-- refactor(backend): improve middleware organization -->
 <!-- style(frontend): clean up component file structure -->
 <!-- fix(api): handle null edge cases in route handlers -->
+<!-- perf(app): optimize module resolution and imports -->
