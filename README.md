@@ -1270,3 +1270,4 @@ This project is licensed under the [MIT License](LICENSE). Use it, fork it, buil
 <!-- fix(api): handle null edge cases in route handlers -->
 <!-- perf(app): optimize module resolution and imports -->
 <!-- docs(code): add inline comments to core logic -->
+<!-- refactor(auth): simplify token validation flow -->
