@@ -4,7 +4,27 @@
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=8d9d4f&center=true&vCenter=true&random=false&width=960&lines=Women-First+Safety+Platform+built+with+React+%2B+Node.js+%2B+MongoDB+%2B+Socket.io;Live+Safety+Map+%7C+SOS+Alerts+%7C+Guardian+Network+%7C+Live+Location;AI+Safety+Alerts+%7C+Fake+Call+%7C+Emergency+Routing+%7C+Offline+Maps;JWT+Auth+%7C+Razorpay+Payments+%7C+Dark+Mode+%7C+Fully+Responsive;Built+for+10%2C000%2B+Women+Traveling+Solo+Across+India)](https://github.com/mananjani2102/nirbhaya)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=8d9d4f&center=true&vCenter=true&random=false&width=960&lines=Women-First+Safety+Platform+%E2%80%94+React+%2B+Node.js+%2B+MongoDB+%2B+Socket.io;Live+Safety+Map+%7C+SOS+Alerts+%7C+Guardian+Network+%7C+Live+Location;AI+Safety+Alerts+%7C+Fake+Call+%7C+Emergency+Routing+%7C+Offline+Maps;JWT+Auth+%7C+Razorpay+Payments+%7C+Dark+Mode+%7C+Fully+Responsive;Built+for+10%2C000%2B+Women+Traveling+Solo+Across+India)](https://github.com/mananjani2102/nirbhaya)
+
+<br>
+
+<p align="center">
+  <a href="https://niirbhaya.netlify.app">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-VIEW%20PROJECT-8d9d4f?style=for-the-badge&labelColor=4a4035" />
+  </a>
+  &nbsp;
+  <a href="https://youtu.be/1REXhOiRhKY" target="_blank">
+    <img src="https://img.shields.io/badge/YOUTUBE-WATCH%20VIDEO-d98b7e?style=for-the-badge&logo=youtube&logoColor=white&labelColor=4a4035" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/STACK-React%20%2B%20Node.js-9db18c?style=for-the-badge&labelColor=4a4035" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/DATABASE-MongoDB%20Atlas-dbc894?style=for-the-badge&labelColor=4a4035" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/REALTIME-Socket.io-8d9d4f?style=for-the-badge&labelColor=4a4035" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/LICENSE-MIT-d98b7e?style=for-the-badge&labelColor=4a4035" />
+</p>
 
 </div>
 
