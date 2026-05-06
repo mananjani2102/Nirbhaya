@@ -4,23 +4,7 @@
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=8d9d4f&center=true&vCenter=true&random=false&width=960&lines=Women-First+Safety+Platform+%E2%80%94+React+%2B+Node.js+%2B+MongoDB+%2B+Socket.io;Live+Safety+Map+%7C+SOS+Alerts+%7C+Guardian+Network+%7C+Live+Location;AI+Safety+Alerts+%7C+Fake+Call+%7C+Emergency+Routing+%7C+Offline+Maps;JWT+Auth+%7C+Razorpay+Payments+%7C+Dark+Mode+%7C+Fully+Responsive;Built+for+10%2C000%2B+Women+Traveling+Solo+Across+India)](https://github.com/mananjani2102/nirbhaya)
-
-<br>
-
-<p align="center">
-  <a href="https://niirbhaya.netlify.app">
-    <img src="https://img.shields.io/badge/LIVE%20DEMO-VIEW%20PROJECT-8d9d4f?style=for-the-badge&labelColor=4a4035" />
-  </a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/STACK-React%20%2B%20Node.js-9db18c?style=for-the-badge&labelColor=4a4035" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/DATABASE-MongoDB%20Atlas-dbc894?style=for-the-badge&labelColor=4a4035" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/REALTIME-Socket.io-8d9d4f?style=for-the-badge&labelColor=4a4035" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/LICENSE-MIT-d98b7e?style=for-the-badge&labelColor=4a4035" />
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=8d9d4f&center=true&vCenter=true&random=false&width=960&lines=Women-First+Safety+Platform+built+with+React+%2B+Node.js+%2B+MongoDB+%2B+Socket.io;Live+Safety+Map+%7C+SOS+Alerts+%7C+Guardian+Network+%7C+Live+Location;AI+Safety+Alerts+%7C+Fake+Call+%7C+Emergency+Routing+%7C+Offline+Maps;JWT+Auth+%7C+Razorpay+Payments+%7C+Dark+Mode+%7C+Fully+Responsive;Built+for+10%2C000%2B+Women+Traveling+Solo+Across+India)](https://github.com/mananjani2102/nirbhaya)
 
 </div>
 
@@ -30,7 +14,7 @@
 
 <div align="center">
 
-## Important Links
+## Quick Links
 
 | Resource | Platform | Link |
 |:--------:|:--------:|:-----|
@@ -50,16 +34,11 @@
 
 <div align="center">
 
-## Live Services
-
-| Service | Platform | URL |
-|:-------:|:--------:|:----|
-| Frontend | Netlify | https://niirbhaya.netlify.app |
-| Backend API | Render | https://nirbhaya-pqv4.onrender.com |
-| Database | MongoDB Atlas | Managed Cloud Cluster |
-| Realtime | Socket.io | Embedded in Backend |
+## Project Description
 
 </div>
+
+Nirbhaya is a full-stack women's safety platform built specifically for India. It combines a live safety map, one-press SOS alerts, a guardian network, fake call feature, and AI-powered route warnings into a single application. The platform is designed to work across 50+ Indian cities and supports offline usage for low-connectivity areas.
 
 <br>
 
@@ -69,7 +48,7 @@
 
 <div align="center">
 
-## The Problem with Women's Safety in India
+## Problem Statement
 
 </div>
 
@@ -136,9 +115,6 @@
 
 ## Feature Showcase
 
-</div>
-
-<div align="center">
 <table>
 <tr>
 <td align="center" width="25%">
@@ -147,7 +123,7 @@
 
 **Live Safety Map**
 
-Interactive illustrated map showing police stations, hospitals, and community-verified safe zones across 50+ Indian cities. Updated daily. Works offline after download.
+Interactive map showing police stations, hospitals, and community-verified safe zones across 50+ Indian cities. Updated daily. Works offline after download.
 
 <img src="https://img.shields.io/badge/50%2B%20Cities-8d9d4f?style=flat-square" />
 <img src="https://img.shields.io/badge/Offline%20Ready-9db18c?style=flat-square" />
@@ -241,6 +217,53 @@ JWT-based registration and login. Subscription plans processed via Razorpay — 
 </td>
 </tr>
 </table>
+
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=8d9d4f&height=4" width="100%">
+
+<br>
+
+<div align="center">
+
+## Screenshots
+
+</div>
+
+> Upload your screenshots to `assets/screenshots/` in your repository and they will appear here.
+
+<div align="center">
+
+**Landing Page**
+
+![Landing Page](./assets/screenshots/landing.png)
+
+**Dashboard**
+
+![Dashboard](./assets/screenshots/dashboard.png)
+
+**Safety Map**
+
+![Safety Map](./assets/screenshots/map.png)
+
+**SOS Screen**
+
+![SOS Screen](./assets/screenshots/sos.png)
+
+**Guardian Network**
+
+![Guardian Network](./assets/screenshots/guardians.png)
+
+**Pricing Plans**
+
+![Pricing](./assets/screenshots/pricing.png)
+
+**Mobile View**
+
+![Mobile Responsive](./assets/screenshots/mobile.png)
+
 </div>
 
 <br>
@@ -297,115 +320,11 @@ Nirbhaya offers three plans — Basic stays free forever. Upgrade only when you 
 
 <br><br>
 
-The complete UI design for Nirbhaya — screens, components, and the full design system — is maintained in Figma. Every color token, spacing value, and component variant used in the codebase originates from this file.
-
-<br>
-
 <a href="https://www.figma.com/design/Jys56cwKCEalT0BSoBIKm6/Untitled?node-id=0-1&t=AuLDgFRiD1bRwEJi-1">
   <img src="https://img.shields.io/badge/Open%20Figma%20File-View%20Full%20Design-8d9d4f?style=for-the-badge&labelColor=4a4035" />
 </a>
 
-<br><br>
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/COLOR%20SYSTEM-dbc894?style=for-the-badge&labelColor=4a4035" />
-
-<br><br>
-
-**Parchment and Sage**
-
-<img src="https://img.shields.io/badge/%238d9d4f-Sage%20Green%20%E2%80%94%20Primary-8d9d4f?style=flat-square" /><br>
-<img src="https://img.shields.io/badge/%239db18c-Muted%20Sage%20%E2%80%94%20Ring-9db18c?style=flat-square" /><br>
-<img src="https://img.shields.io/badge/%23dbc894-Warm%20Gold%20%E2%80%94%20Accent-dbc894?style=flat-square" /><br>
-<img src="https://img.shields.io/badge/%23d98b7e-Terracotta%20%E2%80%94%20Alert-d98b7e?style=flat-square" /><br>
-<img src="https://img.shields.io/badge/%235c4b3e-Deep%20Brown%20%E2%80%94%20Foreground-5c4b3e?style=flat-square" />
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/SCREENS-8d9d4f?style=for-the-badge&labelColor=4a4035" />
-
-<br><br>
-
-**Designed Screens**
-
-Landing Page · Login · Signup<br>
-Dashboard · Safety Map · SOS<br>
-Guardian Network · Pricing<br>
-Payment Flow · Settings
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/TOKENS-9db18c?style=for-the-badge&labelColor=4a4035" />
-
-<br><br>
-
-**Design Tokens**
-
-Typography · Spacing · Shadows<br>
-Button States · Form Inputs<br>
-Card Variants · Badge System<br>
-Dark and Light Mode Tokens
-
-</td>
-</tr>
-</table>
-
 </div>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=8d9d4f&height=4" width="100%">
-
-<br>
-
-<div align="center">
-
-## SEO Implementation
-
-<img src="https://img.shields.io/badge/React%20Helmet-Meta%20Tags-8d9d4f?style=for-the-badge&labelColor=4a4035" />
-&nbsp;
-<img src="https://img.shields.io/badge/Open%20Graph-Social%20Sharing-9db18c?style=for-the-badge&labelColor=4a4035" />
-&nbsp;
-<img src="https://img.shields.io/badge/Semantic%20HTML5-Structured%20Markup-dbc894?style=for-the-badge&labelColor=4a4035" />
-
-</div>
-
-<br>
-
-```
-SEO is implemented across all public and authenticated pages using React Helmet Async.
-
-  DYNAMIC META TAGS
-  Each route sets its own <title> and <meta name="description"> via React Helmet.
-  Example — Landing:   "Nirbhaya — Travel Without Fear. Safety App for Women in India."
-  Example — Map:       "Safety Map — Police Stations, Hospitals & Safe Zones Near You"
-  Example — Pricing:   "Plans & Pricing — Nirbhaya Guardian Network"
-
-  OPEN GRAPH TAGS
-  og:title, og:description, og:image, og:url set on all public pages.
-  Enables rich link previews when shared on WhatsApp, Twitter, and LinkedIn.
-
-  TWITTER CARD
-  twitter:card set to summary_large_image for expanded preview on Twitter.
-
-  SEMANTIC HTML5
-  <header>, <main>, <nav>, <section>, <article>, <footer> used throughout.
-  Headings follow correct H1 > H2 > H3 hierarchy on every page.
-  All images include descriptive alt attributes.
-
-  PERFORMANCE
-  Vite code-splitting ensures each route loads only what it needs.
-  Lazy loading applied to heavy components — MapView, FakeCallOverlay, PaymentModal.
-  Lighthouse performance score — 90+ on Landing and Dashboard pages.
-
-  CANONICAL URLS
-  <link rel="canonical"> set on all public pages to prevent duplicate indexing.
-```
 
 <br>
 
@@ -587,7 +506,7 @@ flowchart LR
 
 <div align="center">
 
-## Project Structure
+## Folder Structure
 
 </div>
 
@@ -632,66 +551,76 @@ nirbhaya/
 |   |   +-- index.js                  <- Mounts all route modules at /api
 |   |
 |   +-- server.js                     <- Express + Socket.io bootstrap + MongoDB connect
-|   +-- .env                          <- PORT | MONGO_URI | JWT_SECRET | RAZORPAY | TWILIO
+|   +-- .env
 |   +-- package.json
 |
 +-- frontend/
-    +-- public/
-    +-- src/
-    |   +-- components/
-    |   |   +-- Navbar.jsx             <- Sticky top navbar with theme toggle
-    |   |   +-- ProtectedRoute.jsx     <- Redirects unauthenticated users to /login
-    |   |   +-- PremiumRoute.jsx       <- Redirects free users to upgrade page
-    |   |   +-- MapView.jsx            <- Illustrated SVG safety map with custom markers
-    |   |   +-- SosButton.jsx          <- Pulsing SOS button with confirmation modal
-    |   |   +-- GuardianCard.jsx       <- Guardian contact display with alert button
-    |   |   +-- PlaceCard.jsx          <- Nearby place card with type badge and directions
-    |   |   +-- PricingCard.jsx        <- Subscription plan card with feature list
-    |   |   +-- PaymentModal.jsx       <- Razorpay UPI / Card / Wallet payment UI
-    |   |   +-- FakeCallOverlay.jsx    <- Full-screen fake incoming call UI
-    |   |   +-- ConfirmModal.jsx       <- Reusable confirmation dialog
-    |   |
-    |   +-- context/
-    |   |   +-- ThemeContext.jsx       <- Dark/light mode toggle with localStorage persist
-    |   |   +-- SocketContext.jsx      <- Socket.io connection provider for SOS and location
-    |   |
-    |   +-- hooks/
-    |   |   +-- useGeolocation.js      <- Browser Geolocation API wrapper with error handling
-    |   |   +-- useSocket.js           <- Socket.io event subscription hook
-    |   |   +-- usePremium.js          <- Returns boolean based on user plan from Redux state
-    |   |
-    |   +-- pages/
-    |   |   +-- Landing.jsx            <- Public landing page with hero, features, pricing
-    |   |   +-- Login.jsx              <- Two-column login with illustrated left panel
-    |   |   +-- Signup.jsx             <- Two-column signup with step progress indicator
-    |   |   +-- Dashboard.jsx          <- Stats, quick actions, recent activity overview
-    |   |   +-- Map.jsx                <- Full safety map with sidebar and SOS bottom bar
-    |   |   +-- Sos.jsx                <- SOS trigger page with emergency numbers
-    |   |   +-- Guardians.jsx          <- Guardian network management page
-    |   |   +-- Pricing.jsx            <- Full pricing page with FAQ accordion
-    |   |   +-- Payment.jsx            <- Razorpay payment flow page
-    |   |   +-- Settings.jsx           <- Profile, notifications, account settings
-    |   |
-    |   +-- redux/
-    |   |   +-- store.js               <- Redux store configuration
-    |   |   +-- authSlice.js           <- Login | logout | register thunks + user state
-    |   |   +-- guardianSlice.js       <- Guardian CRUD thunks + list state
-    |   |   +-- sosSlice.js            <- SOS trigger | alert history | mark safe state
-    |   |   +-- locationSlice.js       <- Location share toggle + coordinates state
-    |   |   +-- mapSlice.js            <- Nearby places | active filters | selected place
-    |   |   +-- subscriptionSlice.js   <- Plan details | payment status | upgrade flow state
-    |   |
-    |   +-- services/
-    |   |   +-- api.js                 <- Axios instance with base URL + JWT interceptor
-    |   |   +-- socketService.js       <- Socket.io client initialization and event emitters
-    |   |
-    |   +-- App.jsx                    <- BrowserRouter + all route declarations
-    |   +-- main.jsx                   <- ReactDOM.createRoot entry point
-    |   +-- index.css                  <- Global styles + CSS variable tokens light and dark
-    |
-    +-- tailwind.config.js
-    +-- vite.config.js
-    +-- package.json
+|   +-- public/
+|   +-- src/
+|   |   +-- components/
+|   |   |   +-- Navbar.jsx
+|   |   |   +-- ProtectedRoute.jsx
+|   |   |   +-- PremiumRoute.jsx
+|   |   |   +-- MapView.jsx
+|   |   |   +-- SosButton.jsx
+|   |   |   +-- GuardianCard.jsx
+|   |   |   +-- PlaceCard.jsx
+|   |   |   +-- PricingCard.jsx
+|   |   |   +-- PaymentModal.jsx
+|   |   |   +-- FakeCallOverlay.jsx
+|   |   |   +-- ConfirmModal.jsx
+|   |   |
+|   |   +-- context/
+|   |   |   +-- ThemeContext.jsx
+|   |   |   +-- SocketContext.jsx
+|   |   |
+|   |   +-- hooks/
+|   |   |   +-- useGeolocation.js
+|   |   |   +-- useSocket.js
+|   |   |   +-- usePremium.js
+|   |   |
+|   |   +-- pages/
+|   |   |   +-- Landing.jsx
+|   |   |   +-- Login.jsx
+|   |   |   +-- Signup.jsx
+|   |   |   +-- Dashboard.jsx
+|   |   |   +-- Map.jsx
+|   |   |   +-- Sos.jsx
+|   |   |   +-- Guardians.jsx
+|   |   |   +-- Pricing.jsx
+|   |   |   +-- Payment.jsx
+|   |   |   +-- Settings.jsx
+|   |   |
+|   |   +-- redux/
+|   |   |   +-- store.js
+|   |   |   +-- authSlice.js
+|   |   |   +-- guardianSlice.js
+|   |   |   +-- sosSlice.js
+|   |   |   +-- locationSlice.js
+|   |   |   +-- mapSlice.js
+|   |   |   +-- subscriptionSlice.js
+|   |   |
+|   |   +-- services/
+|   |   |   +-- api.js
+|   |   |   +-- socketService.js
+|   |   |
+|   |   +-- App.jsx
+|   |   +-- main.jsx
+|   |   +-- index.css
+|   |
+|   +-- tailwind.config.js
+|   +-- vite.config.js
+|   +-- package.json
+|
++-- assets/
+    +-- screenshots/
+        +-- landing.png
+        +-- dashboard.png
+        +-- map.png
+        +-- sos.png
+        +-- guardians.png
+        +-- pricing.png
+        +-- mobile.png
 ```
 
 <br>
@@ -867,28 +796,6 @@ npm run dev    # -> http://localhost:3000
 | `POST` | `/auth/login` | Login and receive JWT token | No |
 | `GET` | `/auth/profile` | Get authenticated user profile and plan details | Yes |
 
-**Register Request:**
-```json
-{
-  "name": "Priya Sharma",
-  "email": "priya@example.com",
-  "phone": "+919876543210",
-  "password": "securepassword",
-  "emergencyContactName": "Rahul Sharma",
-  "emergencyContactPhone": "+919876543211"
-}
-```
-
-**Login Response:**
-```json
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "user": { "_id": "64abc...", "name": "Priya Sharma", "email": "priya@example.com", "plan": "free" }
-}
-```
-
-<br>
-
 ### Guardian Routes — `/api/guardians`
 
 | Method | Endpoint | Description | Auth Required |
@@ -898,13 +805,6 @@ npm run dev    # -> http://localhost:3000
 | `DELETE` | `/guardians/:id` | Remove a guardian contact by ID | Yes |
 | `POST` | `/guardians/alert-all` | Manually send location alert to all guardians | Yes |
 
-**Add Guardian Request:**
-```json
-{ "name": "Meera Nair", "phone": "+919876543212", "relation": "Sister" }
-```
-
-<br>
-
 ### SOS Routes — `/api/sos`
 
 | Method | Endpoint | Description | Auth Required |
@@ -913,32 +813,21 @@ npm run dev    # -> http://localhost:3000
 | `POST` | `/sos/safe` | Mark user as safe — resolves all active alerts | Yes |
 | `GET` | `/sos/history` | Fetch SOS alert history with timestamps | Yes |
 
-**Trigger SOS Request:**
-```json
-{ "latitude": 12.9716, "longitude": 77.5946, "message": "I need help. Please call me." }
-```
-
-<br>
-
 ### Location Routes — `/api/location`
 
 | Method | Endpoint | Description | Auth Required |
 |:------:|:---------|:------------|:-------------:|
-| `POST` | `/location/start` | Start live location sharing session with guardian room | Yes |
+| `POST` | `/location/start` | Start live location sharing session | Yes |
 | `PUT` | `/location/update` | Push updated GPS coordinates to guardian room | Yes |
 | `POST` | `/location/stop` | End location sharing session | Yes |
-
-<br>
 
 ### Map Routes — `/api/map`
 
 | Method | Endpoint | Description | Auth Required |
 |:------:|:---------|:------------|:-------------:|
-| `GET` | `/map/places` | Get nearby safe places by city or lat-lng coordinates | Yes |
+| `GET` | `/map/places` | Get nearby safe places by city or coordinates | Yes |
 | `POST` | `/map/places` | Submit a new community-verified safe place | Yes |
 | `GET` | `/map/places/:type` | Filter by type — police, hospital, safe-zone | Yes |
-
-<br>
 
 ### Subscription Routes — `/api/subscription`
 
@@ -974,7 +863,23 @@ All endpoints return a consistent error envelope:
 
 </div>
 
-The backend uses a centralized `errorMiddleware.js` that catches all unhandled errors and formats them consistently. On the frontend, an Axios interceptor catches API errors globally and triggers toast notifications. A separate `premiumMiddleware.js` returns a `403` with an upgrade prompt when a free user attempts a premium route — no feature fails silently.
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=8d9d4f&height=4" width="100%">
+
+<br>
+
+<div align="center">
+
+## Mobile Responsiveness
+
+<img src="https://img.shields.io/badge/Mobile%20First-Fully%20Responsive-8d9d4f?style=for-the-badge&labelColor=4a4035" />
+&nbsp;
+<img src="https://img.shields.io/badge/Tested-320px%20to%201280px%2B-9db18c?style=for-the-badge&labelColor=4a4035" />
+
+</div>
+
+Nirbhaya is fully responsive across all screen sizes. All pages including the Safety Map, SOS screen, Guardian Network, Pricing, and Authentication flows render correctly on mobile devices. The SOS button remains prominent and accessible on small screens. Navigation collapses into a mobile-friendly menu below 768px.
 
 <br>
 
@@ -1000,24 +905,24 @@ The backend uses a centralized `errorMiddleware.js` that catches all unhandled e
 
 **Frontend — Netlify**
 
-1. Connect GitHub repository on [netlify.com](https://netlify.com).
-2. Set build configuration — Base Directory: `frontend`, Build Command: `npm run build`, Publish Directory: `frontend/dist`.
-3. Add all three frontend environment variables in the Netlify dashboard.
-4. Add a `_redirects` file inside `public/` with content `/* /index.html 200` for React Router support.
+1. Connect GitHub repository on netlify.com
+2. Set build configuration — Base Directory: `frontend`, Build Command: `npm run build`, Publish Directory: `frontend/dist`
+3. Add all three frontend environment variables in the Netlify dashboard
+4. Add a `_redirects` file inside `public/` with content `/* /index.html 200` for React Router support
 
 **Backend — Render**
 
-1. Create a Web Service on [render.com](https://render.com) and connect the repository.
-2. Set Root Directory: `backend`, Build Command: `npm install`, Start Command: `node server.js`.
-3. Add all backend environment variables from the Render dashboard.
-4. Enable WebSocket support in Render settings — required for Socket.io to function correctly.
+1. Create a Web Service on render.com and connect the repository
+2. Set Root Directory: `backend`, Build Command: `npm install`, Start Command: `node server.js`
+3. Add all backend environment variables from the Render dashboard
+4. Enable WebSocket support in Render settings — required for Socket.io
 
 **Database — MongoDB Atlas**
 
-1. Create a free M0 cluster on [MongoDB Atlas](https://www.mongodb.com/atlas).
-2. Create a database user with read/write permissions.
-3. Whitelist all IPs (`0.0.0.0/0`) for Render compatibility.
-4. Copy the connection string and set it as `MONGO_URI`.
+1. Create a free M0 cluster on MongoDB Atlas
+2. Create a database user with read/write permissions
+3. Whitelist all IPs `0.0.0.0/0` for Render compatibility
+4. Copy the connection string and set it as `MONGO_URI`
 
 <br>
 
@@ -1038,37 +943,37 @@ The backend uses a centralized `errorMiddleware.js` that catches all unhandled e
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/HIGH-d98b7e?style=flat-square" /></td>
 <td><strong>Mobile App — React Native</strong></td>
-<td>iOS and Android port with native background location, push notifications, and offline map access for travel in low-connectivity areas across India</td>
+<td>iOS and Android port with native background location, push notifications, and offline map access</td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/HIGH-d98b7e?style=flat-square" /></td>
 <td><strong>Community Safe Place Verification</strong></td>
-<td>Allow verified users to submit and upvote safe places. Moderation queue before a place appears on the public safety map</td>
+<td>Allow verified users to submit and upvote safe places with a moderation queue before appearing on the public map</td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/MED-dbc894?style=flat-square" /></td>
 <td><strong>Trip Safety Mode</strong></td>
-<td>Set a route and ETA. If the user does not check in by the deadline, SOS is auto-triggered and all guardians are alerted without any manual action</td>
+<td>Set a route and ETA — if the user does not check in by the deadline, SOS is auto-triggered</td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/MED-dbc894?style=flat-square" /></td>
 <td><strong>Multi-language Support</strong></td>
-<td>Hindi, Tamil, Telugu, Kannada, and Bengali UI translations for accessibility across non-English speaking women in India</td>
+<td>Hindi, Tamil, Telugu, Kannada, and Bengali UI translations for accessibility across India</td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/MED-dbc894?style=flat-square" /></td>
 <td><strong>NGO and Shelter Partnerships</strong></td>
-<td>Verified partnerships with registered NGOs, women's shelters, and police stations to appear as trusted safe zones on the map</td>
+<td>Verified partnerships with registered NGOs, women's shelters, and police stations as trusted map points</td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/LOW-9db18c?style=flat-square" /></td>
 <td><strong>Safety Score per City</strong></td>
-<td>Aggregate community reports, police station density, and hospital coverage into a per-city safety score displayed before travel</td>
+<td>Aggregate community reports into a per-city safety score displayed before travel</td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/LOW-9db18c?style=flat-square" /></td>
 <td><strong>Travel Companion Matching</strong></td>
-<td>Opt-in feature to match solo travelers heading to the same destination — fully privacy-controlled and consent-based</td>
+<td>Opt-in feature to match solo travelers heading to the same destination — fully consent-based</td>
 </tr>
 </table>
 
@@ -1083,10 +988,10 @@ The backend uses a centralized `errorMiddleware.js` that catches all unhandled e
 ## Contributing
 
 1. Fork the repository and create a new branch: `git checkout -b feature/your-feature-name`
-2. Write your changes with clean, tested code.
+2. Write your changes with clean, tested code
 3. Commit with a meaningful message: `git commit -m "feat: describe your change"`
 4. Push to your fork: `git push origin feature/your-feature-name`
-5. Open a Pull Request to `main` — describe what you changed and why.
+5. Open a Pull Request to `main` — describe what you changed and why
 
 All new route handlers must include `try/catch` error handling and follow the existing controller pattern. Premium feature routes must pass through `premiumMiddleware`. No console errors, no untested edge cases, no hardcoded credentials in any file.
 
@@ -1132,6 +1037,6 @@ This project is licensed under the [MIT License](LICENSE). Use it, fork it, buil
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8d9d4f&height=200&section=footer&text=Nirbhaya+%E2%80%94+Without+Fear&fontSize=40&fontAlignY=70&animation=twinkling&fontColor=fdfbf6" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=8d9d4f&height=200&section=footer&text=Nirbhaya+—+Without+Fear&fontSize=40&fontAlignY=70&animation=twinkling&fontColor=fdfbf6" />
 
 </div>
