@@ -1274,3 +1274,4 @@ This project is licensed under the [MIT License](LICENSE). Use it, fork it, buil
 <!-- chore(deps): align dependency versions across workspaces -->
 <!-- style(css): normalize spacing and typography tokens -->
 <!-- fix(ui): correct responsive layout on mobile screens -->
+<!-- perf(db): improve query efficiency in model methods -->
